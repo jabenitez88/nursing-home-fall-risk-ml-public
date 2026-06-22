@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated analysis outputs
+results/article/
+
+# Local/private source material
+overleaf_peerj_falls_paper/
+Prevención_de_caídas_ML/
+*.pdf
+*.docx
+*.zip
+*.tex
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Operating system/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

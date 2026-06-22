@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated article when available."
+title: "Nursing home fall-risk prediction using routinely collected longitudinal data"
+type: software
+date-released: 2026-06-22
+repository-code: "https://github.com/OWNER/REPOSITORY"
+license: MIT
+authors:
+  - name: "University of Leon research team"
+preferred-citation:
+  type: article
+  title: "Nursing home fall-risk prediction using routinely collected longitudinal data"
+  authors:
+    - name: "University of Leon research team"
+  year: 2026
+  notes: "Update this record with journal, DOI, volume, issue, and pages after publication."

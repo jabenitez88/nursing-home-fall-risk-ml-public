@@ -1,0 +1,2 @@
+person_years,patients,first_predictor_year,last_predictor_year,next_year_any_fall_n,next_year_any_fall_rate,next_year_recurrent_fall_n,next_year_high_burden_fall_n,next_year_death_after_fall_n
+1158,242,2009,2020,472,0.4075993091537133,288,134,73

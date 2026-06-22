@@ -1,0 +1,3 @@
+FALL_NEXT_YEAR,n,age_median,age_q1,age_q3,female_rate,same_year_fall_rate,median_cumulative_falls,functional_available_rate
+0,686,89.0,83.0,93.0,0.8364963503649635,0.2653061224489796,1.0,0.11224489795918367
+1,472,88.0,84.0,91.0,0.8728813559322034,0.6377118644067796,3.0,0.2796610169491525

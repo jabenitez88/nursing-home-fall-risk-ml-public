@@ -1,0 +1,8 @@
+metric,estimate
+calibration_intercept,-1.325098550496045
+calibration_slope,0.9438487217489423
+brier_score,0.1249812357225257
+expected_calibration_error,0.1635063505826207
+integrated_calibration_index,0.16355964245782345
+median_absolute_calibration_error,0.1488210608300085
+p90_absolute_calibration_error,0.3120727414660763
