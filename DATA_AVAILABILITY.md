@@ -1,10 +1,10 @@
 # Data Availability and Use
 
-This repository is designed to share the analysis code and non-identifying data products needed to reproduce the reported experiments.
+This repository is designed to share the analysis code, processed analysis dataset, and non-identifying data products needed to reproduce the reported experiments.
 
 ## Included Data
 
-- `data/processed/person_year_dataset.csv`: anonymized person-year analysis dataset.
+- `data/processed/person_year_dataset.csv`: anonymized person-year analysis dataset used in the article experiments.
 - `data/derived/*.csv`: aggregate or derived model outputs, including cohort summaries, cross-validation metrics, calibration tables, decision-curve data, bootstrap confidence intervals, sensitivity analyses, and selected aggregated out-of-fold predictions.
 
 The processed dataset removes names and raw institutional identifiers. `PERSON_ID` is a synthetic resident identifier used only to preserve grouped validation.
@@ -21,7 +21,7 @@ The processed dataset removes names and raw institutional identifiers. `PERSON_I
 
 The processed person-year dataset remains row-level health-related data from a small institutional cohort. Even after removal of direct identifiers, public release should be approved by the relevant data controller, ethics committee, and institutional governance process.
 
-If row-level release is not authorized, remove:
+If a future repository copy is prepared in a setting where row-level release is not authorized, remove:
 
 ```text
 data/processed/person_year_dataset.csv

@@ -1,6 +1,6 @@
 # Nursing Home Fall-Risk Prediction
 
-This repository contains the reproducible analysis code and shareable data files for a development/internal-validation study of next-year fall-risk prediction in nursing home residents.
+This repository contains the reproducible analysis code, processed analysis dataset, derived model outputs, and generated figures for a development/internal-validation study of next-year fall-risk prediction in nursing home residents.
 
 The repository intentionally does not include the manuscript source, LaTeX files, Overleaf assets, original PDFs, original notebooks, or raw institutional exports.
 
@@ -19,7 +19,7 @@ The processed dataset is a longitudinal person-year table. Each row represents o
 
 Resident identifiers are synthetic (`R0001`, `R0002`, ...). Names and raw institutional identifiers are not included.
 
-Before making this repository public, confirm that release of the processed row-level dataset is covered by the relevant ethics, data-governance, and institutional approvals. If row-level sharing is not authorized, remove `data/processed/person_year_dataset.csv` and share only the code plus `data/derived/` aggregate outputs.
+The original institutional records are not included. The shared row-level file is the processed analysis dataset used to reproduce the experiments. Its reuse must respect the data-governance terms described in `DATA_AVAILABILITY.md`.
 
 ## Reproducing the Analysis
 
